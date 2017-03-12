@@ -1,4 +1,4 @@
-package com.juja.eugene.kortov.b_algorythms.Lab18;
+package com.juja.eugene.kortov.b_algorithms.Lab18;
 
 public class ParserOld {
     public static void main(String[] args) {
