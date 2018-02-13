@@ -14,6 +14,6 @@ public class Solution {
 class TestThread extends Thread {
     @Override
     public void run() {
-        System.out.print("My first thread");
+        System.out.println("My first thread");
     }
 }
