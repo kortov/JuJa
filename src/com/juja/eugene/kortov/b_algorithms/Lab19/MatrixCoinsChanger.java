@@ -6,7 +6,7 @@ public class MatrixCoinsChanger {
 
     public static void main(String[] args) {
 
-        getCombinations(5);
+        getCombinations(25);
     }
 
     public static int getCombinations(int sum) {
@@ -37,13 +37,13 @@ public class MatrixCoinsChanger {
                 }
 
                 combinations[number][nominalsIndex] = current + previous;
-                degug(combinations, coinNominals);
+                debug(combinations, coinNominals);
             }
         }
         return combinations[sum][nominalsCount - 1];
     }
 
-    private static void degug(int[][] combinations, int[] coinNominals) {
+    private static void debug(int[][] combinations, int[] coinNominals) {
         String result = "\t\t";
         for (int x = 0; x < coinNominals.length; x++) {
             result += coinNominals[x] + "\t";

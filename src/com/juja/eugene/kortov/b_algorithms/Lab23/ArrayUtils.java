@@ -22,6 +22,7 @@ public class ArrayUtils {
 //        System.out.println(rotateClockwise(new int[1][0][]));
 //        System.out.println(Arrays.deepToString(rotateClockwise(new int[1][1][0])));
 //        rotateClockwise(new int[][][]{{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}});
+        printCube(new int[][][]{{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}});
     }
 
     public static int[][][] rotateClockwise(int[][][] arg) {
@@ -81,19 +82,19 @@ public class ArrayUtils {
         return result;
     }
 
-//    private static void printCube(int[][][] arg) {
-//        for (int i = 0; i < arg.length; i++) {
-//            for (int j = 0; j < arg[i].length; j++) {
-//                for (int k = 0; k < arg[i][j].length; k++) {
-//                    System.out.print(arg[i][j][k] + " ");
-//                }
-//                System.out.println();
-//                if (i > 0) {
-//                    System.out.print("\t");
-//
-//                }
-//            }
-//            System.out.print("\t");
-//        }
-//    }
+    private static void printCube(int[][][] arg) {
+        for (int i = 0; i < arg.length; i++) {
+            for (int j = 0; j < arg[i].length; j++) {
+                for (int k = 0; k < arg[i][j].length; k++) {
+                    System.out.print(arg[i][j][k] + " ");
+                }
+                System.out.println();
+                if (i > 0) {
+                    System.out.print("\t");
+
+                }
+            }
+            System.out.print("\t");
+        }
+    }
 }
