@@ -1,4 +1,4 @@
-package com.juja.kortov.multithreading.Task2;
+package com.juja.kortov.multithreading.task2;
 
 /* My second thread
 1. Создать public static класс TestThread унаследовавшись от класса Thread.

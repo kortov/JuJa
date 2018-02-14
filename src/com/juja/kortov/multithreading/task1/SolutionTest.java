@@ -1,6 +1,5 @@
-package com.juja.kortov.multithreading.Task2;
+package com.juja.kortov.multithreading.task1;
 
-import com.juja.kortov.multithreading.Task2.Solution;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -32,8 +31,7 @@ public class SolutionTest {
 
     @Test
     public void testConsole() {
-        String expected = "it's static block inside TestThread" + System.lineSeparator()
-                + "it's run method" + System.lineSeparator();
+        String expected = "My first thread" + System.lineSeparator();
         Solution.main(new String[]{});
         assertEquals(expected, outContent.toString());
     }

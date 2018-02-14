@@ -1,4 +1,4 @@
-package com.juja.kortov.multithreading.Task1;
+package com.juja.kortov.multithreading.task1;
 
 /* My first thread
 Создать public static class TestThread - нить с помощью интерфейса Runnable.
